@@ -12,6 +12,10 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/A-a_tech__1_-removebg-preview.png" type="images/A-a_tech__1_-removebg-preview.png">
+    
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.min.css">
 
 </head>
 <body>
@@ -471,6 +475,15 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+    
+    <div id="myDiv"></div>
 
 </body>
+       <script type="text/javascript">
+        $(function () {
+          $('#myDiv').floatingWhatsApp({
+            phone: '0818845956'
+          });
+        });
+      </script>
 </html>
