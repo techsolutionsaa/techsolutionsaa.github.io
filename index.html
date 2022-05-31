@@ -476,16 +476,20 @@
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
     
-    <div id="myDiv"></div>
+    <div id="myDiv">
+        $().floatingWhatsApp([options])
+    </div>
 
 </body>
        <script type="text/javascript">
         $(function () {
           $('#myDiv').floatingWhatsApp({
-            phone: 'https://wa.link/73t01f',
+            phone: '27818845956',
             showPopup: "True",
-            popupMessage: "Hello, how can we assist you?",
+            popupMessage: "Hello, how can we help you today?",
             headerTitle: "WhatsApp Chat",
+            headerColor: 'crimson',
+            backgroundColor: 'crimson',
             message: "Hi, ",
             position: "right"
           });
