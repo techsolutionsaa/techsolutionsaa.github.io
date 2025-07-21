@@ -208,7 +208,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: <video autoplay muted loop id="myVideo"> <source src="RecordIt-1753124430.mov" type="video/mp4"/>;
+    background-image: url('../images/amazing.jpg');
     background-size: cover;
     background-position: center;
 }
